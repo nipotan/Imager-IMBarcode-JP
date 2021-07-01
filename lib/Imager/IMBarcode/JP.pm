@@ -6,7 +6,7 @@ use utf8;
 use Imager;
 use Mouse;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 has zipcode => (
     is      => 'rw',
