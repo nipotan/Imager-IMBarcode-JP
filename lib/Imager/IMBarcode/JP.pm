@@ -11,7 +11,7 @@ our $VERSION = '0.02';
 has zipcode => (
     is      => 'rw',
     isa     => 'Int',
-    default => '00000000',
+    default => '0000000',
 );
 
 has address => (
