@@ -239,7 +239,7 @@ sub _draw_num {
     for my $num (@nums) {
         my $pos = $self->_pos;
         my $x = 24 + $pos * 14;
-        my $ymin = $num =~ m{^[12]$} ? 24 : 37;
+        my $ymin = $num =~ m{^[12]$} ? 24 : 38;
         my $ymax = +{
             1 => $ymin + 41,
             2 => $ymin + 27,
