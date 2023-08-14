@@ -228,7 +228,7 @@ sub _build__base {
         ysize => 90,
     );
     $img->settag(name => 'i_xres', value => 300);
-    $img->settag(name => 'i_xres', value => 300);
+    $img->settag(name => 'i_yres', value => 300);
     $img->box(filled => 1, color => '#ffffff');
     return $img;
 }
