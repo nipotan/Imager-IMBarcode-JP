@@ -172,7 +172,7 @@ sub make_bars {
         croak('Invalid zipcode(): ' . $self->zipcode);
     }
     unless ($self->address =~ /^[-0-9A-Z]*$/i) {
-        croak('Invalid address(): ' . $self->zipcode);
+        croak('Invalid address(): ' . $self->address);
     }
     my @bars = ();
     my $checksum = 0;
