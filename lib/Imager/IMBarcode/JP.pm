@@ -5,6 +5,7 @@ use warnings;
 use utf8;
 use Imager;
 use Mouse;
+use Carp;
 
 our $VERSION = '0.02';
 
